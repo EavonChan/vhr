@@ -1,13 +1,10 @@
-扫码加微信，备注微人事，进群讨论。
 
-![](http://www.javaboy.org/images/weixin.png)
-
-微人事是一个前后端分离的人力资源管理系统，项目采用SpringBoot+Vue开发。  
+畜生管理系统是一个前后端分离的人力资源管理系统，项目采用SpringBoot+Vue开发。  
 
 
-项目地址：[https://github.com/lenve/vhr](https://github.com/lenve/vhr)   
+项目地址：[https://github.com/EavonChan/vhr/](https://github.com/EavonChan/vhr/)   
 
->原本计划把项目跑起来放到网上供小伙伴们查看，但是之前买服务器为了省钱，内存只有512M，两个应用跑不起来(已经有一个[V部落开源项目](https://github.com/lenve/VBlog)在运行)，因此小伙伴们只能将就看一下下面的截图了，文末有部署教程，部署到本地也可以查看完整效果。
+>原本计划把项目跑起来放到网上供小伙伴们查看，但是之前买服务器为了省钱，内存只有512M，两个应用跑不起来(已经有一个[V部落开源项目](https://github.com/EavonChan/VBlog)在运行)，因此小伙伴们只能将就看一下下面的截图了，文末有部署教程，部署到本地也可以查看完整效果。
 
 - [项目部署视频教程](https://mp.weixin.qq.com/s/qN01Le434FWom0c3jqiQmA)
 
@@ -22,7 +19,7 @@
 
 # 整体效果
 
-首先，不同的用户在登录成功之后，根据不同的角色，会看到不同的系统菜单，完整菜单如下：  
+首先，不同的畜生在登录成功之后，根据不同的角色，会看到不同的系统菜单，完整菜单如下：  
 
 ![p278](https://raw.githubusercontent.com/wiki/lenve/vhr/doc/p278.png)  
 
@@ -59,7 +56,7 @@
 
 # 快速部署
 
-1.clone项目到本地```git@github.com:lenve/vhr.git```  
+1.clone项目到本地```git@github.com:EavonChan/vhr.git```  
 
 2.数据库脚本放在hrserver项目的resources目录下，在MySQL中执行数据库脚本  
 
@@ -122,9 +119,9 @@ npm run build
 
 #### 相关文档：
 
-12.[部门数据库设计与存储过程编写](https://github.com/lenve/vhr/wiki/12.%E9%83%A8%E9%97%A8%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E7%BC%96%E5%86%99)  
-13.[递归查询与存储过程调用](https://github.com/lenve/vhr/wiki/13.%E9%80%92%E5%BD%92%E6%9F%A5%E8%AF%A2%E4%B8%8E%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8)  
-14.[Tree树形控件使用要点](https://github.com/lenve/vhr/wiki/14.Tree%E6%A0%91%E5%BD%A2%E6%8E%A7%E4%BB%B6%E4%BD%BF%E7%94%A8%E8%A6%81%E7%82%B9)  
+12.[部门数据库设计与存储过程编写](https://github.com/EavonChan/vhr/wiki/12.%E9%83%A8%E9%97%A8%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E7%BC%96%E5%86%99)  
+13.[递归查询与存储过程调用](https://github.com/EavonChan/vhr/wiki/13.%E9%80%92%E5%BD%92%E6%9F%A5%E8%AF%A2%E4%B8%8E%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8)  
+14.[Tree树形控件使用要点](https://github.com/EavonChan/vhr/wiki/14.Tree%E6%A0%91%E5%BD%A2%E6%8E%A7%E4%BB%B6%E4%BD%BF%E7%94%A8%E8%A6%81%E7%82%B9)  
 
 ## 2018.1.12 更新
 
@@ -136,9 +133,9 @@ npm run build
 
 #### 相关文档：
 
-15.[职位管理和职称管理功能介绍](https://github.com/lenve/vhr/wiki/15.%E8%81%8C%E4%BD%8D%E7%AE%A1%E7%90%86%E5%92%8C%E8%81%8C%E7%A7%B0%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D)  
-16.[组件复用](https://github.com/lenve/vhr/wiki/16.%E7%BB%84%E4%BB%B6%E5%A4%8D%E7%94%A8)  
-17.[[题外话]利用git标签回退至任意版本](https://github.com/lenve/vhr/wiki/17.%5B%E9%A2%98%E5%A4%96%E8%AF%9D%5D%E5%88%A9%E7%94%A8git%E6%A0%87%E7%AD%BE%E5%9B%9E%E9%80%80%E8%87%B3%E4%BB%BB%E6%84%8F%E7%89%88%E6%9C%AC)  
+15.[职位管理和职称管理功能介绍](https://github.com/EavonChan/vhr/wiki/15.%E8%81%8C%E4%BD%8D%E7%AE%A1%E7%90%86%E5%92%8C%E8%81%8C%E7%A7%B0%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D)  
+16.[组件复用](https://github.com/EavonChan/vhr/wiki/16.%E7%BB%84%E4%BB%B6%E5%A4%8D%E7%94%A8)  
+17.[[题外话]利用git标签回退至任意版本](https://github.com/EavonChan/vhr/wiki/17.%5B%E9%A2%98%E5%A4%96%E8%AF%9D%5D%E5%88%A9%E7%94%A8git%E6%A0%87%E7%AD%BE%E5%9B%9E%E9%80%80%E8%87%B3%E4%BB%BB%E6%84%8F%E7%89%88%E6%9C%AC)  
 
 ## 2018.1.15 更新
 
@@ -150,8 +147,8 @@ npm run build
 
 #### 相关文档：  
 
-18.[员工基本信息管理功能介绍](https://github.com/lenve/vhr/wiki/18.%E5%91%98%E5%B7%A5%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D)  
-19.[SpringBoot中自定义参数绑定](https://github.com/lenve/vhr/wiki/19.SpringBoot%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8F%82%E6%95%B0%E7%BB%91%E5%AE%9A)  
+18.[员工基本信息管理功能介绍](https://github.com/EavonChan/vhr/wiki/18.%E5%91%98%E5%B7%A5%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D)  
+19.[SpringBoot中自定义参数绑定](https://github.com/EavonChan/vhr/wiki/19.SpringBoot%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8F%82%E6%95%B0%E7%BB%91%E5%AE%9A)  
 
 ## 2018.1.16 更新  
 
@@ -161,7 +158,7 @@ npm run build
 
 #### 相关文档：  
 
-20.[高级搜索功能介绍](https://github.com/lenve/vhr/wiki/20.%E9%AB%98%E7%BA%A7%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D)  
+20.[高级搜索功能介绍](https://github.com/EavonChan/vhr/wiki/20.%E9%AB%98%E7%BA%A7%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D)  
 
 ## 2018.1.17 更新
 
@@ -171,11 +168,11 @@ npm run build
 
 #### 相关文档：
 
-21.[Excel导入导出效果图](https://github.com/lenve/vhr/wiki/21.Excel%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E6%95%88%E6%9E%9C%E5%9B%BE)  
-22.[SpringMVC文件下载的两种方式](https://github.com/lenve/vhr/wiki/22.SpringMVC%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F)  
-23.[POI生成Excel](https://github.com/lenve/vhr/wiki/23.POI%E7%94%9F%E6%88%90Excel)  
-24.[axios下载文件](https://github.com/lenve/vhr/wiki/24.axios%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6)  
-25.[使用POI实现Excel导入](https://github.com/lenve/vhr/wiki/25.%E4%BD%BF%E7%94%A8POI%E5%AE%9E%E7%8E%B0Excel%E5%AF%BC%E5%85%A5)  
+21.[Excel导入导出效果图](https://github.com/EavonChan/vhr/wiki/21.Excel%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E6%95%88%E6%9E%9C%E5%9B%BE)  
+22.[SpringMVC文件下载的两种方式](https://github.com/EavonChan/vhr/wiki/22.SpringMVC%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F)  
+23.[POI生成Excel](https://github.com/EavonChan/vhr/wiki/23.POI%E7%94%9F%E6%88%90Excel)  
+24.[axios下载文件](https://github.com/EavonChan/vhr/wiki/24.axios%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6)  
+25.[使用POI实现Excel导入](https://github.com/EavonChan/vhr/wiki/25.%E4%BD%BF%E7%94%A8POI%E5%AE%9E%E7%8E%B0Excel%E5%AF%BC%E5%85%A5)  
 
 ## 2018.1.19 更新
 
